@@ -1,0 +1,257 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      //1: "Ekstradan Modül Vardır"
+      //2: "Burdan Asla Bişey Değiştirmeyin"
+      //3: "Modüllerin sürümünü Değiştirmek İçin Yukardaki Butona Basıp Modülün ismini Yazın Daha Sonra Modülün Üstündeki Versiyon'a Tıklayın"
+      name: "bot"
+      version: "1.0.0"
+      description: ""
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        ascii-art: "^1.5.1"
+        chalk: "^2.4.2"
+        discord.js-commando: "^0.10.0"
+        chance: "^1.0.18"
+        cleverbot-node: "^0.3.11"
+        common-tags: "^1.8.0"
+        config: "^3.1.0"
+        discord.js: "^11.5.0"
+        ffmpeg: "^0.0.4"
+        jimp: "^0.6.4"
+        js-robloxapi: "^1.0.6"
+        db: "^1.1.1"
+        isgd: "^1.1.3"
+        steam-provider: "^0.2.0"
+        dog-names: "^2.0.0"
+        cool-images: "^1.0.2"
+        ffmpeg-binaries: "^4.0.0"
+        generate-password: "^1.4.1"
+        math-expression-evaluator: "^1.2.17"
+        pokedex-api: "^1.1.2"
+        node-google-translate-skidz: "^1.1.2"
+        moment: "^2.24.0"
+        cheerio: "^1.0.0-rc.2"
+        request-promise-native: "^1.0.7"
+        moment-duration-format: "^2.2.2"
+        ms: "^2.1.1"
+        quick.db: "^7.0.0-b15"
+        fortnitetracker-7days-stats: "^3.1.2"
+        opus: "^0.0.2"
+        fs: "^0.0.2"
+        snekfetch: "^4.0.4"
+        opusscript: "0.0.6"
+        superagent: "^5.0.5"
+        simple-youtube-api: "^5.1.1"
+        figlet: "^1.2.1"
+        weather-js: "^2.0.0"
+        ytdl: "^0.11.1"
+        ytdl-core: "^0.29.0"
+        google-translate-api: "^2.3.0"
+        node-superfetch: "^0.1.9"
+        express: "^4.16.4"
+      engines: 
+        node: "8.x"
+      repository: 
+        url: "https://glitch.com"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      gitHead: "183635160b086c50f861288ad5692d1281b76c9f"
+      readme: "ERROR: No README data found!"
+      _id: "bot@1.0.0"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ascii-art/1.5.1"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/chalk/2.4.2"
+    requester: "/app"
+    status: "resolved"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js-commando/0.10.0"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/chance/1.0.18"
+    requester: "/app"
+    status: "resolved"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cleverbot-node/0.3.11"
+    requester: "/app"
+    status: "resolved"
+  9 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/common-tags/1.8.0"
+    requester: "/app"
+    status: "resolved"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/config/3.1.0"
+    requester: "/app"
+    status: "resolved"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ffmpeg/0.0.4"
+    requester: "/app"
+    status: "resolved"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/js-robloxapi/1.0.6"
+    requester: "/app"
+    status: "resolved"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/db/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/isgd/1.1.3"
+    requester: "/app"
+    status: "resolved"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/steam-provider/0.2.0"
+    requester: "/app"
+    status: "resolved"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dog-names/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cool-images/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  18 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/generate-password/1.4.1"
+    requester: "/app"
+    status: "resolved"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/math-expression-evaluator/1.2.17"
+    requester: "/app"
+    status: "resolved"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pokedex-api/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-google-translate-skidz/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment/2.24.0"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cheerio/1.0.0-rc.3"
+    requester: "/app"
+    status: "resolved"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment-duration-format/2.2.2"
+    requester: "/app"
+    status: "resolved"
+  25 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.1"
+    requester: "/app"
+    status: "resolved"
+  26 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/quick.db/7.0.0-b22"
+    requester: "/app"
+    status: "resolved"
+  27 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fortnitetracker-7days-stats/3.1.2"
+    requester: "/app"
+    status: "resolved"
+  28 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fs/0.0.2"
+    requester: "/app"
+    status: "resolved"
+  29 debug pnpm:deprecation: 
+    deprecated: "use node-fetch instead"
+    depth: 0
+    pkgId: "registry.npmjs.org/snekfetch/4.0.4"
+    pkgName: "snekfetch"
+    pkgVersion: "4.0.4"
+    prefix: "/app"
+  30 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/snekfetch/4.0.4"
+    requester: "/app"
+    status: "resolved"
+  31 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/opusscript/0.0.6"
+    requester: "/app"
+    status: "resolved"
+  32 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/figlet/1.2.1"
+    requester: "/app"
+    status: "resolved"
+  33 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/weather-js/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  34 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/google-translate-api/2.3.0"
+    requester: "/app"
+    status: "resolved"
+  35 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ffmpeg-binaries/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  36 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/superagent/5.0.5"
+    requester: "/app"
+    status: "resolved"
+  37 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ytdl-core/0.29.1"
+    requester: "/app"
+    status: "resolved"
+  38 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/jimp/0.6.4"
+    requester: "/app"
+    status: "resolved"
+  39 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/request-promise-native/1.0.7"
+    requester: "/app"
+    status: "resolved"
+  40 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ytdl/0.11.1"
+    requester: "/app"
+    status: "resolved"
+  41 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.16.4"
+    requester: "/app"
+    status: "resolved"
+  42 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/11.5.0"
+    requester: "/app"
+    status: "resolved"
+  43 error pnpm: 
+    message: "No matching version found for opus@>=0.0.2 <0.0.3"
+    code: "ERR_PNPM_NO_MATCHING_VERSION"
+    packageMeta: 
+      versions: 
+        0.0.0: 
+          name: "opus"
+          version: "0.0.0"
+          _hasShrinkwrap: false
+          directories: {}
+          dist: 
+            shasum: "5731c2798b5a0d1451cac6c1ecc5243eacdb32fa"
+            tarball: "https://registry.npmjs.org/opus/-/opus-0.0.0.tgz"
+      name: "opus"
+      dist-tags: 
+        latest: "0.0.0"
+      modified: "2014-07-11T14:02:12.301Z"
+      cachedAt: 1557780227339
+  44 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-superfetch/0.1.9"
+    requester: "/app"
+    status: "resolved"
